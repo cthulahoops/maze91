@@ -1,3 +1,11 @@
+' (c) 1991 Adam Kelly
+'
+' Program to run on Microsoft Qbasic
+' Producing two mazes in full color
+' Program runs in screen mode 7
+' 40x25 lines
+' 16 colors using 4 red,9 bright blue,14 yellow,15 white
+' mazes in the main module may be altered
 DECLARE SUB rand ()
 DECLARE SUB init ()
 DECLARE SUB game ()
@@ -347,7 +355,7 @@ PRINT CHR$(176)
 CLS
 COLOR 15
 PRINT "The world is safe, you are a hero"
-PRINT "and I'm Lawrence of Arabia!"
-PRINT "The world is never safe!"
-PRINT "and my granddad was more of a hero than you!"
+PRINT "and I'm Lawrence of Araiba!"
+PRINT "The world is never safe"
+PRINT "and my grannies more of a hero than you!"
 END SUB

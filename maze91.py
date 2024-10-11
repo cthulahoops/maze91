@@ -1,3 +1,16 @@
+# Original QBasic program is:
+#
+# (c) 1991 Adam Kelly
+#
+# Program to run on Microsoft Qbasic
+# Producing two mazes in full color
+# Program runs in screen mode 7
+# 40x25 lines
+# 16 colors using 4 red,9 bright blue,14 yellow,15 white
+# mazes in the main module may be altered
+#
+# Python port of the original (c) 2024 Adam Kelly
+
 import random
 import time
 import sys
@@ -348,9 +361,9 @@ def win():
     screen.write('░')
     cls()
     print("The world is safe, you are a hero")
-    print("and I'm Lawrence of Arabia!")
-    print("The world is never safe!")
-    print("and my granny was more of a hero than you!")
+    print("and I'm Lawrence of Araiba!")
+    print("The world is never safe")
+    print("and my grannies more of a hero than you!")
     sys.exit()
 
 if __name__ == "__main__":
